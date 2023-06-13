@@ -94,7 +94,7 @@ ${imgURL}
 
 var encodedTexto = encodeURI(texto);
 
-var win = window.open(`https://wa.me/5547984692621?text=${encodedTexto}`, '_blank');
+var win = window.open(`https://wa.me/554733265159?text=${encodedTexto}`, '_blank');
 }
 /* ------------------SEND WHATSAPP MESSAGE----------------*/
 

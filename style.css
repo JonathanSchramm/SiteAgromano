@@ -310,17 +310,25 @@ section .cards .card:hover {
 
 
 .whatsapp-button {
-  padding: 10px 20px;
+  border: 1px solid transparent;
+  padding: 10px 29px;
   background-color: green;
   color: white;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+  transition: .5s;
 }
 
 .whatsapp-button:hover {
-  background-color: darkgreen;
+  background-color: #fff;
+  border: 1px solid green;
+  color: green;
+}
+
+button i{
+  margin-right: 0.5rem;
 }
 
 .slider-prev,
