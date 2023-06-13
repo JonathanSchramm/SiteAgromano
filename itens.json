@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Ração Special Dog 5kg",
+        "price": 90.00  
+    },
+    {
+        "id": 2,
+        "name": "Ração Golden Seleção Natural 1kg",
+        "price":  20.00
+    },
+    {
+        "id": 3,
+        "name": "Ração Golden Formula 1k",
+        "price":  50.00
+    },
+    {
+        "id": 4,
+        "name": "Ração Premier 1kg",
+        "price":  60.00
+    },
+    {
+        "id": 5,
+        "name": "Ração Special Dog UltraLife 1kg",
+        "price":  35.00
+    },
+    {
+        "id": 6,
+        "name": "Ração BawWaw 5kg",
+        "price":  30.00
+    },
+    {
+        "id": 7,
+        "name": "Ração Gran Plus 1kg",
+        "price":  45.00
+    },
+    {
+        "id": 8,
+        "name": "Ração Pedigree 1kg",
+        "price":  90.00
+    },
+    {
+        "id": 9,
+        "name": "Ração Origens 1kg",
+        "price":  25.00
+    },
+    {
+        "id": 10,
+        "name": "Ração Nutrilus 1kg",
+        "price":  30.00
+    },
+    {
+        "id": 11,
+        "name": "Churrasqueira M11",
+        "price":  120.00
+    },
+    {
+        "id": 12,
+        "name": "Churrasqueira M12",
+        "price":  80.00
+    },
+    {
+        "id": 13,
+        "name": "Churrasqueira M12",
+        "price":  75.00
+    },
+    {
+        "id": 14,
+        "name": "Churrasqueira M14",
+        "price":  420.00
+    },
+    {
+        "id": 15,
+        "name": "Churrasqueira M15",
+        "price":  75.00
+    },
+    {
+        "id": 16,
+        "name": "Churrasqueira M16",
+        "price":  60.00
+    }
+]
