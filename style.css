@@ -205,7 +205,6 @@ section .cards {
   max-width: 1200px;
   margin-top: 50px;
   padding: 0 10px;
-  justify-content: space-between;
 }
 
 section.about {
