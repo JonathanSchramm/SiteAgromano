@@ -354,7 +354,7 @@ button i{
 
 
 .products .card img {
-  width: 120px;
+  max-width: 120px;
   height: 120px;
   margin-bottom: 20px;
   object-fit: cover;
