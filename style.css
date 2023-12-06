@@ -479,11 +479,10 @@ footer a:hover {
   cursor: pointer;
 }
 .maxSize{
-  transform: scale(3.2);
+  transform: scale(3);
   transition: transform 0.3s;
 }
-
-
+/*zoom in/out images */
 
 @media screen and (max-width: 1300px) {
   .slider-container{
