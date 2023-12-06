@@ -474,6 +474,17 @@ footer a:hover {
     display: flex;
 }
 
+/*zoom in/out images */
+.zoom-img {
+  cursor: pointer;
+}
+.maxSize{
+  transform: scale(3.2);
+  transition: transform 0.3s;
+}
+
+
+
 @media screen and (max-width: 1300px) {
   .slider-container{
     max-width: 860px;

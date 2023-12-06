@@ -22,6 +22,7 @@
         <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
         <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
         <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
       </head>
   <body>
     <header>
@@ -176,31 +177,31 @@
       <p>Uma coleção premium dos produtos mais requintados e desejados.</p>
       <ul class="cards">
         <li class="card">
-          <img id="img11" src="images/Calopsita R$130,00 cada.jpeg" alt="img">
+          <img class="zoom-img" id="img11" src="images/Calopsita R$130,00 cada.jpeg" alt="img">
           <h2 id="valor11">R$130,00</h2>
           <span class="span-text" id="item11">Calopsita UN</span>
           <button onclick="send_handle(document.getElementById('item11').textContent, document.getElementById('valor11').textContent, 'img11')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img12" src="images/Periquito australiano R$20,00 cada.jpeg" alt="img">
+          <img class="zoom-img" id="img12" src="images/Periquito australiano R$20,00 cada.jpeg" alt="img">
           <h2 id="valor12">R$20,00</h2>
           <span class="span-text" id="item12">Periquito australiano UN</span>
           <button onclick="send_handle(document.getElementById('item12').textContent, document.getElementById('valor12').textContent, 'img12')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img13" src="images/Canário fêmea R$45,00 cada.jpeg" alt="img">
+          <img class="zoom-img" id="img13" src="images/Canário fêmea R$45,00 cada.jpeg" alt="img">
           <h2 id="valor13">R$45,00</h2>
           <span class="span-text" id="item13">Canário fêmea UN</span>
           <button onclick="send_handle(document.getElementById('item13').textContent, document.getElementById('valor13').textContent, 'img13')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img14" src="images/Agapornes R$90,00 cada.jpeg" alt="img">
+          <img class="zoom-img" id="img14" src="images/Agapornes R$90,00 cada.jpeg" alt="img">
           <h2 id="valor14">R$90,00</h2>
           <span class="span-text" id="item14">Agapornis UN</span>
           <button onclick="send_handle(document.getElementById('item14').textContent, document.getElementById('valor14').textContent, 'img14')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img15" src="images/Mandarim R$35,00 cada.jpeg" alt="img">
+          <img class="zoom-img" id="img15" src="images/Mandarim R$35,00 cada.jpeg" alt="img">
           <h2 id="valor15">R$35,00</h2>
           <span class="span-text" id="item15">Mandarim UN</span>
           <button onclick="send_handle(document.getElementById('item15').textContent, document.getElementById('valor15').textContent, 'img15')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
@@ -213,220 +214,220 @@
       <p>Temos uma ampla variedade de produtos de alta qualidade que vão encantar você. Descubra o que temos a oferecer e aproveite nossas ofertas exclusivas.</p>
       <ul class="cards">
         <li class="card">
-          <img id="img1" src="images/Racao calopsita 5kg 30.jpeg" alt="Imagem 1" draggable="false">
-          <h2 id="valor1">R$30,00</h2>
-          <span class="span-text" id="item1">Ração calopsita 5kg</span>
-          <button onclick="send_handle(document.getElementById('item1').textContent, document.getElementById('valor1').textContent, 'img1')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img2" src="images/Alpiste 5kg.jpeg" alt="Imagem 2" draggable="false">
-          <h2 id="valor2">R$62,00</h2>
-          <span class="span-text" id="item2">Ração Alpiste 5kg</span>
-          <button onclick="send_handle(document.getElementById('item2').textContent, document.getElementById('valor2').textContent, 'img2')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img3" src="images/Ração de periquito 5kg.jpeg" alt="Imagem 3" draggable="false">
-          <h2 id="valor3">R$31,00</h2>
-          <span class="span-text" id="item3">Ração de periquito 5kg</span>
-          <button onclick="send_handle(document.getElementById('item3').textContent, document.getElementById('valor3').textContent, 'img3')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img4" src="images/Ração de canário 5kg.jpeg" alt="Imagem 4" draggable="false">
-          <h2 id="valor4">R$46,00</h2>
-          <span class="span-text" id="item4">Ração de canário 5kg</span>
-          <button onclick="send_handle(document.getElementById('item4').textContent, document.getElementById('valor4').textContent, 'img4')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img5" src="images/Ração calopsita 10kg.jpeg" alt="Imagem 5" draggable="false">
-          <h2 id="valor5">R$66,00</h2>
-          <span class="span-text" id="item5">Ração calopsita 10kg</span>
-          <button onclick="send_handle(document.getElementById('item5').textContent, document.getElementById('valor5').textContent, 'img5')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img6" src="images/Painço comum 5kg.jpeg" alt="Imagem 6" draggable="false">
-          <h2 id="valor6">R$50,00</h2>
-          <span class="span-text" id="item6">Ração Painço comum 5kg</span>
-          <button onclick="send_handle(document.getElementById('item6').textContent, document.getElementById('valor6').textContent, 'img6')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img7" src="images/Ração pássaro de jardim 5kg.jpeg" alt="Imagem 7" draggable="false">
-          <h2 id="valor7">R$20,00</h2>
-          <span class="span-text" id="item7">Ração pássaro de jardim 5kg</span>
-          <button onclick="send_handle(document.getElementById('item7').textContent, document.getElementById('valor7').textContent, 'img7')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img8" src="images/Ração pra papagaio 5kg.jpeg" alt="Imagem 8" draggable="false">
-          <h2 id="valor8">R$65,00</h2>
-          <span class="span-text" id="item8">Ração Papagaio 5kg</span>
-          <button onclick="send_handle(document.getElementById('item8').textContent, document.getElementById('valo8').textContent, 'img8')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img9" src="images/Girassol miúdo 5kg.jpeg" alt="Imagem 9" draggable="false">
-          <h2 id="valor9">R$65,00</h2>
-          <span class="span-text" id="item9">Ração Girassol miúdo 5kg</span>
-          <button onclick="send_handle(document.getElementById('item9').textContent, document.getElementById('valor9').textContent, 'img9')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img10" src="images/Ração girassol graúdo.jpeg" alt="Imagem 10" draggable="false">
-          <h2 id="valor10">R$65,00</h2>
-          <span class="span-text" id="item10">Ração girassol graúdo</span>
-          <button onclick="send_handle(document.getElementById('item10').textContent, document.getElementById('valor10').textContent, 'img10')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img11" src="images/Ração trica saporitos 5kg.jpeg" alt="img">
-          <h2 id="valor11">R$80,00</h2>
-          <span class="span-text" id="item11">Ração trica saporitos 5kg</span>
-          <button onclick="send_handle(document.getElementById('item11').textContent, document.getElementById('valor11').textContent, 'img11')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img12" src="images/Milho saco de 25kg.jpeg" alt="img">
-          <h2 id="valor12">R$45,00</h2>
-          <span class="span-text" id="item12">Milho saco de 25kg</span>
-          <button onclick="send_handle(document.getElementById('item12').textContent, document.getElementById('valor12').textContent, 'img12')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img13" src="images/Carolo grosso saco de 25kg R$45,00.jpeg" alt="img">
-          <h2 id="valor13">R$45,00</h2>
-          <span class="span-text" id="item13">Carolo grosso saco de 25kg</span>
-          <button onclick="send_handle(document.getElementById('item13').textContent, document.getElementById('valor13').textContent, 'img13')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img14" src="images/Carolo grosso saco de 25kg R$45,00.jpeg" alt="img">
-          <h2 id="valor14">R$45,00</h2>
-          <span class="span-text" id="item14">Carolo médio saco de 25kg</span>
-          <button onclick="send_handle(document.getElementById('item14').textContent, document.getElementById('valor14').textContent, 'img14')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img15" src="images/Postura pra codorna machs 25kg R$80,00.jpeg" alt="img">
-          <h2 id="valor15">R$80,00</h2>
-          <span class="span-text" id="item15">Postura pra codorna machs 25kg</span>
-          <button onclick="send_handle(document.getElementById('item15').textContent, document.getElementById('valor15').textContent, 'img15')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
-        </li>
-        <li class="card">
-          <img id="img16" src="images/Ração machs Coelho 25kg R$75,00.jpeg" alt="img">
-          <h2 id="valor16">R$75,00</h2>
-          <span class="span-text" id="item16">Ração machs Coelho 25kg</span>
+          <img class="zoom-img" id="img16" src="images/Racao calopsita 5kg 30.jpeg" alt="Imagem 1" draggable="false">
+          <h2 id="valor16">R$30,00</h2>
+          <span class="span-text" id="item16">Ração calopsita 5kg</span>
           <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Postura peletizada 25kg R$75,00.jpeg" alt="img">
-          <h2 id="valor16">R$75,00</h2>
-          <span class="span-text" id="item16">Postura peletizada 25kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img17" src="images/Alpiste 5kg.jpeg" alt="Imagem 2" draggable="false">
+          <h2 id="valor17">R$62,00</h2>
+          <span class="span-text" id="item17">Ração Alpiste 5kg</span>
+          <button onclick="send_handle(document.getElementById('item17').textContent, document.getElementById('valor17').textContent, 'img17')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Ração machs crescimento 25kg R$80,00.jpeg" alt="img">
-          <h2 id="valor16">R$80,00</h2>
-          <span class="span-text" id="item16">Ração machs crescimento 25kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img18" src="images/Ração de periquito 5kg.jpeg" alt="Imagem 3" draggable="false">
+          <h2 id="valor18">R$31,00</h2>
+          <span class="span-text" id="item18">Ração de periquito 5kg</span>
+          <button onclick="send_handle(document.getElementById('item18').textContent, document.getElementById('valor18').textContent, 'img18')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Multi dog pq porte 10kg R$100,00.jpeg" alt="img">
-          <h2 id="valor16">R$100,00</h2>
-          <span class="span-text" id="item16">Ração Multi dog pqn porte 10kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img19" src="images/Ração de canário 5kg.jpeg" alt="Imagem 4" draggable="false">
+          <h2 id="valor19">R$46,00</h2>
+          <span class="span-text" id="item19">Ração de canário 5kg</span>
+          <button onclick="send_handle(document.getElementById('item19').textContent, document.getElementById('valor19').textContent, 'img19')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Tuko 7kg R$40,50.jpeg" alt="img">
-          <h2 id="valor16">R$40,50</h2>
-          <span class="span-text" id="item16">Ração Tuko 7kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img20" src="images/Ração calopsita 10kg.jpeg" alt="Imagem 5" draggable="false">
+          <h2 id="valor20">R$66,00</h2>
+          <span class="span-text" id="item20">Ração calopsita 10kg</span>
+          <button onclick="send_handle(document.getElementById('item20').textContent, document.getElementById('valor20').textContent, 'img20')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Seven dogs adultos pq porte e  mini 14kg R$136,00.jpeg" alt="img">
-          <h2 id="valor16">R$136,00</h2>
-          <span class="span-text" id="item16">Ração Seven dogs adultos pqn porte e mini 14kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img21" src="images/Painço comum 5kg.jpeg" alt="Imagem 6" draggable="false">
+          <h2 id="valor21">R$50,00</h2>
+          <span class="span-text" id="item21">Ração Painço comum 5kg</span>
+          <button onclick="send_handle(document.getElementById('item21').textContent, document.getElementById('valor21').textContent, 'img21')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Seven dogs adultos médio e grande 10kg R$86,00.jpeg" alt="img">
-          <h2 id="valor16">R$86,00</h2>
-          <span class="span-text" id="item16">Ração Seven dogs adultos médio e grande 10kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img22" src="images/Ração pássaro de jardim 5kg.jpeg" alt="Imagem 7" draggable="false">
+          <h2 id="valor22">R$20,00</h2>
+          <span class="span-text" id="item22">Ração pássaro de jardim 5kg</span>
+          <button onclick="send_handle(document.getElementById('item22').textContent, document.getElementById('valor22').textContent, 'img22')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Green paws cão adulto raças pequena e mini 10kg R$136,00.jpeg" alt="img">
-          <h2 id="valor16">R$136,00</h2>
-          <span class="span-text" id="item16">Ração Green paws cão adulto raças pequena e mini 10kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img23" src="images/Ração pra papagaio 5kg.jpeg" alt="Imagem 8" draggable="false">
+          <h2 id="valor23">R$65,00</h2>
+          <span class="span-text" id="item23">Ração Papagaio 5kg</span>
+          <button onclick="send_handle(document.getElementById('item23').textContent, document.getElementById('valo23').textContent, 'img23')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Green paws cão raças grande 12kg R$150,00.jpeg" alt="img">
-          <h2 id="valor16">R$150,00</h2>
-          <span class="span-text" id="item16">Ração Green paws cão raças grande 12kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img24" src="images/Girassol miúdo 5kg.jpeg" alt="Imagem 9" draggable="false">
+          <h2 id="valor24">R$65,00</h2>
+          <span class="span-text" id="item24">Ração Girassol miúdo 5kg</span>
+          <button onclick="send_handle(document.getElementById('item24').textContent, document.getElementById('valor24').textContent, 'img24')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Cão criador 7kg R$38,00.jpeg" alt="img">
-          <h2 id="valor16">R$38,00</h2>
-          <span class="span-text" id="item16">Ração Cão criador 7kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img25" src="images/Ração girassol graúdo.jpeg" alt="Imagem 10" draggable="false">
+          <h2 id="valor25">R$65,00</h2>
+          <span class="span-text" id="item25">Ração girassol graúdo</span>
+          <button onclick="send_handle(document.getElementById('item25').textContent, document.getElementById('valor25').textContent, 'img25')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Seven dogs Power aclive 14kg R$146,00.jpeg" alt="img">
-          <h2 id="valor16">R$146,00</h2>
-          <span class="span-text" id="item16">Ração Seven dogs Power aclive 14kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img26" src="images/Ração trica saporitos 5kg.jpeg" alt="img">
+          <h2 id="valor26">R$80,00</h2>
+          <span class="span-text" id="item26">Ração trica saporitos 5kg</span>
+          <button onclick="send_handle(document.getElementById('item26').textContent, document.getElementById('valor26').textContent, 'img26')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Magnus cães pequeno porte 15kg R$139,00.jpeg" alt="img">
-          <h2 id="valor16">R$139,00</h2>
-          <span class="span-text" id="item16">Ração Magnus cães pequeno porte 15kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img27" src="images/Milho saco de 25kg.jpeg" alt="img">
+          <h2 id="valor27">R$45,00</h2>
+          <span class="span-text" id="item27">Milho saco de 25kg</span>
+          <button onclick="send_handle(document.getElementById('item27').textContent, document.getElementById('valor27').textContent, 'img27')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Ração primo gato castrado 10kg R$165,00.jpeg" alt="img">
-          <h2 id="valor16">R$165,00</h2>
-          <span class="span-text" id="item16">Ração primo gato castrado 10kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img28" src="images/Carolo grosso saco de 25kg R$45,00.jpeg" alt="img">
+          <h2 id="valor28">R$45,00</h2>
+          <span class="span-text" id="item28">Carolo grosso saco de 25kg</span>
+          <button onclick="send_handle(document.getElementById('item28').textContent, document.getElementById('valor28').textContent, 'img28')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Ração multi dog filhote 10kg R$100,00.jpeg" alt="img">
-          <h2 id="valor16">R$100,00</h2>
-          <span class="span-text" id="item16">Ração multi dog filhote 10kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img29" src="images/Carolo grosso saco de 25kg R$45,00.jpeg" alt="img">
+          <h2 id="valor29">R$45,00</h2>
+          <span class="span-text" id="item29">Carolo médio saco de 25kg</span>
+          <button onclick="send_handle(document.getElementById('item29').textContent, document.getElementById('valor29').textContent, 'img29')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Ração seven gato filhote 10kg R$133,00.jpeg" alt="img">
-          <h2 id="valor16">R$133,00</h2>
-          <span class="span-text" id="item16">Ração seven gato filhote 10kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img30" src="images/Postura pra codorna machs 25kg R$80,00.jpeg" alt="img">
+          <h2 id="valor30">R$80,00</h2>
+          <span class="span-text" id="item30">Postura pra codorna machs 25kg</span>
+          <button onclick="send_handle(document.getElementById('item30').textContent, document.getElementById('valor30').textContent, 'img30')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Ração seven gato castrado 10kg R$136,00.jpeg" alt="img">
-          <h2 id="valor16">R$136,00</h2>
-          <span class="span-text" id="item16">Ração seven gato castrado 10kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img31" src="images/Ração machs Coelho 25kg R$75,00.jpeg" alt="img">
+          <h2 id="valor31">R$75,00</h2>
+          <span class="span-text" id="item31">Ração machs Coelho 25kg</span>
+          <button onclick="send_handle(document.getElementById('item31').textContent, document.getElementById('valor31').textContent, 'img31')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Ração multi dog filhote 25kg R$222,00.jpeg" alt="img">
-          <h2 id="valor16">R$222,00</h2>
-          <span class="span-text" id="item16">Ração multi dog filhote 25kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img32" src="images/Postura peletizada 25kg R$75,00.jpeg" alt="img">
+          <h2 id="valor32">R$75,00</h2>
+          <span class="span-text" id="item32">Postura peletizada 25kg</span>
+          <button onclick="send_handle(document.getElementById('item32').textContent, document.getElementById('valor32').textContent, 'img32')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Ração gram Plus gato castrado 10kg R$168,00.jpeg" alt="img">
-          <h2 id="valor16">R$168,00</h2>
-          <span class="span-text" id="item16">Ração gram Plus gato castrado 10kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img33" src="images/Ração machs crescimento 25kg R$80,00.jpeg" alt="img">
+          <h2 id="valor33">R$80,00</h2>
+          <span class="span-text" id="item33">Ração machs crescimento 25kg</span>
+          <button onclick="send_handle(document.getElementById('item33').textContent, document.getElementById('valor33').textContent, 'img33')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Ração gram Plus cão pequeno porte 10kg R$140,00.jpeg" alt="img">
-          <h2 id="valor16">R$140,00</h2>
-          <span class="span-text" id="item16">Ração gram Plus cão pequeno porte 10kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img34" src="images/Multi dog pq porte 10kg R$100,00.jpeg" alt="img">
+          <h2 id="valor34">R$100,00</h2>
+          <span class="span-text" id="item34">Ração Multi dog pqn porte 10kg</span>
+          <button onclick="send_handle(document.getElementById('item34').textContent, document.getElementById('valor34').textContent, 'img34')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Ração gram Plus cão pequeno porte 15kg R$165,00.jpeg" alt="img">
-          <h2 id="valor16">R$165,00</h2>
-          <span class="span-text" id="item16">Ração gram Plus cão pequeno porte 15kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img35" src="images/Tuko 7kg R$40,50.jpeg" alt="img">
+          <h2 id="valor35">R$40,50</h2>
+          <span class="span-text" id="item35">Ração Tuko 7kg</span>
+          <button onclick="send_handle(document.getElementById('item35').textContent, document.getElementById('valor35').textContent, 'img35')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
         <li class="card">
-          <img id="img16" src="images/Ração Magnus todo dia 15kg R$125,00.jpeg" alt="img">
-          <h2 id="valor16">R$125,00</h2>
-          <span class="span-text" id="item16">Ração Magnus todo dia 15kg</span>
-          <button onclick="send_handle(document.getElementById('item16').textContent, document.getElementById('valor16').textContent, 'img16')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+          <img class="zoom-img" id="img36" src="images/Seven dogs adultos pq porte e  mini 14kg R$136,00.jpeg" alt="img">
+          <h2 id="valor36">R$136,00</h2>
+          <span class="span-text" id="item36">Ração Seven dogs adultos pqn porte e mini 14kg</span>
+          <button onclick="send_handle(document.getElementById('item36').textContent, document.getElementById('valor36').textContent, 'img36')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img37" src="images/Seven dogs adultos médio e grande 10kg R$86,00.jpeg" alt="img">
+          <h2 id="valor37">R$86,00</h2>
+          <span class="span-text" id="item37">Ração Seven dogs adultos médio e grande 10kg</span>
+          <button onclick="send_handle(document.getElementById('item37').textContent, document.getElementById('valor37').textContent, 'img37')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img38" src="images/Green paws cão adulto raças pequena e mini 10kg R$136,00.jpeg" alt="img">
+          <h2 id="valor38">R$136,00</h2>
+          <span class="span-text" id="item38">Ração Green paws cão adulto raças pequena e mini 10kg</span>
+          <button onclick="send_handle(document.getElementById('item38').textContent, document.getElementById('valor38').textContent, 'img38')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img39" src="images/Green paws cão raças grande 12kg R$150,00.jpeg" alt="img">
+          <h2 id="valor39">R$150,00</h2>
+          <span class="span-text" id="item39">Ração Green paws cão raças grande 12kg</span>
+          <button onclick="send_handle(document.getElementById('item39').textContent, document.getElementById('valor39').textContent, 'img39')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img40" src="images/Cão criador 7kg R$38,00.jpeg" alt="img">
+          <h2 id="valor40">R$38,00</h2>
+          <span class="span-text" id="item40">Ração Cão criador 7kg</span>
+          <button onclick="send_handle(document.getElementById('item40').textContent, document.getElementById('valor40').textContent, 'img40')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img41" src="images/Seven dogs Power aclive 14kg R$146,00.jpeg" alt="img">
+          <h2 id="valor41">R$146,00</h2>
+          <span class="span-text" id="item41">Ração Seven dogs Power aclive 14kg</span>
+          <button onclick="send_handle(document.getElementById('item41').textContent, document.getElementById('valor41').textContent, 'img41')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img42" src="images/Magnus cães pequeno porte 15kg R$139,00.jpeg" alt="img">
+          <h2 id="valor42">R$139,00</h2>
+          <span class="span-text" id="item42">Ração Magnus cães pequeno porte 15kg</span>
+          <button onclick="send_handle(document.getElementById('item42').textContent, document.getElementById('valor42').textContent, 'img42')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img43" src="images/Ração primo gato castrado 10kg R$165,00.jpeg" alt="img">
+          <h2 id="valor43">R$165,00</h2>
+          <span class="span-text" id="item43">Ração primo gato castrado 10kg</span>
+          <button onclick="send_handle(document.getElementById('item43').textContent, document.getElementById('valor43').textContent, 'img43')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img44" src="images/Ração multi dog filhote 10kg R$100,00.jpeg" alt="img">
+          <h2 id="valor44">R$100,00</h2>
+          <span class="span-text" id="item44">Ração multi dog filhote 10kg</span>
+          <button onclick="send_handle(document.getElementById('item44').textContent, document.getElementById('valor44').textContent, 'img44')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img45" src="images/Ração seven gato filhote 10kg R$133,00.jpeg" alt="img">
+          <h2 id="valor45">R$133,00</h2>
+          <span class="span-text" id="item45">Ração seven gato filhote 10kg</span>
+          <button onclick="send_handle(document.getElementById('item45').textContent, document.getElementById('valor45').textContent, 'img45')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img46" src="images/Ração seven gato castrado 10kg R$136,00.jpeg" alt="img">
+          <h2 id="valor46">R$136,00</h2>
+          <span class="span-text" id="item46">Ração seven gato castrado 10kg</span>
+          <button onclick="send_handle(document.getElementById('item46').textContent, document.getElementById('valor46').textContent, 'img46')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img47" src="images/Ração multi dog filhote 25kg R$222,00.jpeg" alt="img">
+          <h2 id="valor47">R$222,00</h2>
+          <span class="span-text" id="item47">Ração multi dog filhote 25kg</span>
+          <button onclick="send_handle(document.getElementById('item47').textContent, document.getElementById('valor47').textContent, 'img47')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img48" src="images/Ração gram Plus gato castrado 10kg R$168,00.jpeg" alt="img">
+          <h2 id="valor48">R$168,00</h2>
+          <span class="span-text" id="item48">Ração gram Plus gato castrado 10kg</span>
+          <button onclick="send_handle(document.getElementById('item48').textContent, document.getElementById('valor48').textContent, 'img48')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img49" src="images/Ração gram Plus cão pequeno porte 10kg R$140,00.jpeg" alt="img">
+          <h2 id="valor49">R$140,00</h2>
+          <span class="span-text" id="item49">Ração gram Plus cão pequeno porte 10kg</span>
+          <button onclick="send_handle(document.getElementById('item49').textContent, document.getElementById('valor49').textContent, 'img49')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img50" src="images/Ração gram Plus cão pequeno porte 15kg R$165,00.jpeg" alt="img">
+          <h2 id="valor50">R$165,00</h2>
+          <span class="span-text" id="item50">Ração gram Plus cão pequeno porte 15kg</span>
+          <button onclick="send_handle(document.getElementById('item50').textContent, document.getElementById('valor50').textContent, 'img50')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
+        </li>
+        <li class="card">
+          <img class="zoom-img" id="img51" src="images/Ração Magnus todo dia 15kg R$125,00.jpeg" alt="img">
+          <h2 id="valor51">R$125,00</h2>
+          <span class="span-text" id="item51">Ração Magnus todo dia 15kg</span>
+          <button onclick="send_handle(document.getElementById('item51').textContent, document.getElementById('valor51').textContent, 'img51')" id="whatsapp-link" class="whatsapp-button"><i class="fab fa-whatsapp"></i>Comprar</button>
         </li>
       </ul>
     </section>
@@ -475,7 +476,7 @@
         </div>
         <div class="col form">
           <form class="form" action="https://formsubmit.co/aggromanno@gmail.com" method="POST">
-            <input type="hidden" name="_autoresponse" value="Olá, agradeçemos a sua mensagem, retornaremas assim que possível!">
+            <input type="hidden" name="_autoresponse" value="Olá, agradeçemos a sua mensagem, retornaremos assim que possível!">
             <input type="hidden" name="_template" value="table">
             <input class="input" type="text" placeholder="Nome*" name="name" required="">
             <input class="input" type="tel" placeholder="Telefone*" name="tel" required="">
@@ -497,6 +498,61 @@
       </div>
     </footer>
 
+    <!--Script JS-->
     <script src="script.js"></script>
+
+    <!--Script zoon in/out images-->
+    <script>
+      $(document).ready(function(){
+    $('.zoom-img').on( "click", function() {
+        $(this).toggleClass('maxSize')
+    });
+});
+    </script>
+
+    <!--Script COOKIE-->
+    <script>
+          // Função para definir um cookie
+          function setCookie(name, value, days) {
+              var expires = "";
+              if (days) {
+                  var date = new Date();
+                  date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                  expires = "; expires=" + date.toUTCString();
+              }
+              document.cookie = name + "=" + value + expires + "; path=/";
+          }
+  
+          // Função para obter o valor de um cookie
+          function getCookie(name) {
+              var nameEQ = name + "=";
+              var ca = document.cookie.split(';');
+              for (var i = 0; i < ca.length; i++) {
+                  var c = ca[i];
+                  while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                  if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+              }
+              return null;
+          }
+  
+          // Função para excluir um cookie
+          function eraseCookie(name) {
+              document.cookie = name + '=; Max-Age=-99999999;';
+          }
+  
+          // Exemplos de uso
+          document.addEventListener('DOMContentLoaded', function () {
+              // Definir um cookie com o nome "example" e o valor "123" que expira em 7 dias
+              setCookie('example', '123', 7);
+  
+              // Obter o valor do cookie com o nome "example"
+              var cookieValue = getCookie('example');
+              console.log('Valor do cookie "example":', cookieValue);
+  
+              // Excluir o cookie com o nome "example"
+              eraseCookie('example');
+              console.log('Cookie "example" excluído.');
+          });
+    </script>
   </body>
 </html>
